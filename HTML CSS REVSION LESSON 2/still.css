@@ -1,0 +1,22 @@
+.main{
+    margin: 10px 6px;
+    padding: 10px 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("1.gif");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.image{
+    border: 10px;
+    border-radius:210px;
+    width: 100px;
+    height: 100px;
+
+}
