@@ -1,4 +1,4 @@
-        .main{
+    .main{
             background-color:rgba(37, 43, 66, 1);
             width: 100%;
             height: 100vh;
@@ -87,7 +87,7 @@
             font-weight: bold;
         }
         .text_row {
-    `       display: flex;         
+           display: flex;         
             gap: 10px;               
             justify-content: center; 
             align-items: center;    
@@ -96,7 +96,7 @@
             display: flex;
             flex-direction: row;
             gap: 10px;
-`       }
+      }
         p{
             margin: 0;
             margin-top: 3px;
