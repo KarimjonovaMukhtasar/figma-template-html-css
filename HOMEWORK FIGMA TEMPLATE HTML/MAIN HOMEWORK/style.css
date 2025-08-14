@@ -1,0 +1,122 @@
+        .main{
+            background-color:rgba(37, 43, 66, 1);
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;   
+            gap: 5px;
+        }
+        .nav{
+            display:flex;
+            gap:10px;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            width:fit-content;
+            height:fit-content;
+            background-color: darkblue;
+            color:azure;
+        }
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card_wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap:10px;
+            background-color:rgba(37, 43, 66, 1);
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            width: 100px;
+            height: 76px;
+            padding: 10px;
+        }
+        .lay_main {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: whitesmoke;
+            width: 80%; 
+            max-width: 900px; 
+            height: auto; 
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .layout_wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap:10px;
+            flex:1;
+        }
+       .container {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            gap: 10px;
+            padding: 20px;
+            background-color: aliceblue;
+        }
+        .text_box{
+            width: 80%;
+            height: 70px;
+            padding: 10 px;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+        }
+        .text_row {
+    `       display: flex;         
+            gap: 10px;               
+            justify-content: center; 
+            align-items: center;    
+        }
+        .cards_container{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+`       }
+        p{
+            margin: 0;
+            margin-top: 3px;
+            margin-bottom:3px;
+        }
+        .card_item {
+            width: 170px; 
+            height: 280px;
+            background-color: whitesmoke;
+            display: flex;
+            flex-direction: column; 
+            justify-content: flex-start; 
+            align-items: center;
+            padding: 15px;            
+            gap: 10px;                
+            border-radius: 10px;     
+        }
+        .card_icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around; 
+            width: 70%; 
+        }
