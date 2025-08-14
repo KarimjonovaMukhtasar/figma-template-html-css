@@ -20,6 +20,8 @@
             height:fit-content;
             background-color: darkblue;
             color:azure;
+            border-radius: 6px;
+            border:0;
         }
         body{
             margin: 0;
@@ -82,25 +84,27 @@
             padding: 10 px;
             background-color: whitesmoke;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             font-weight: bold;
         }
         .text_row {
-           display: flex;         
-            gap: 10px;               
+            display: flex;
+            flex-direction: column;       
+            gap: 5px;               
             justify-content: center; 
             align-items: center;    
         }
         .cards_container{
             display: flex;
             flex-direction: row;
-            gap: 10px;
+            gap: 5px;
       }
         p{
             margin: 0;
-            margin-top: 3px;
-            margin-bottom:3px;
+            margin-top: 0px;
+            margin-bottom:0.5 em;
         }
         .card_item {
             width: 170px; 
@@ -119,4 +123,41 @@
             flex-direction: row;
             justify-content: space-around; 
             width: 70%; 
+        }
+        .section_wrapper{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            gap:10px;
+            background-color: beige;
+            width:500px;
+            height:300px;
+        }
+        .section{
+            width: 200px;
+            height: 200px;
+            background-color: whitesmoke;
+            align-items:center;
+            justify-content: center;
+        }
+        footer{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            gap:10px;
+            background-color:rgba(37, 43, 66, 1);
+            width:500px;
+            height:200px;
+        }
+        .last{
+            width: 200px;
+            height: 20px;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
